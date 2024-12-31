@@ -333,19 +333,15 @@ export default async function seedDemoData({ container }: ExecArgs) {
     input: {
       product_categories: [
         {
-          name: "Laptops",
+          name: "Holiday Lights",
           is_active: true,
         },
         {
-          name: "Accessories",
+          name: "Office Lights",
           is_active: true,
         },
         {
-          name: "Phones",
-          is_active: true,
-        },
-        {
-          name: "Monitors",
+          name: "Custom Lights",
           is_active: true,
         },
       ],

@@ -67,52 +67,12 @@ const Register = ({ setCurrentView, regions }: Props) => {
             className="bg-white"
           />
           <Input
-            label="Company name"
-            name="company_name"
-            required
-            autoComplete="organization"
-            data-testid="company-name-input"
-            className="bg-white"
-          />
-          <Input
             label="Password"
             name="password"
             required
             type="password"
             autoComplete="new-password"
             data-testid="password-input"
-            className="bg-white"
-          />
-          <Input
-            label="Company address"
-            name="company_address"
-            required
-            autoComplete="address"
-            data-testid="company-address-input"
-            className="bg-white"
-          />
-          <Input
-            label="Company city"
-            name="company_city"
-            required
-            autoComplete="city"
-            data-testid="company-city-input"
-            className="bg-white"
-          />
-          <Input
-            label="Company state"
-            name="company_state"
-            required
-            autoComplete="state"
-            data-testid="company-state-input"
-            className="bg-white"
-          />
-          <Input
-            label="Company zip"
-            name="company_zip"
-            required
-            autoComplete="postal-code"
-            data-testid="company-zip-input"
             className="bg-white"
           />
           <Select
